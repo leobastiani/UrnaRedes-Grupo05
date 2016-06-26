@@ -45,3 +45,9 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/Servidor_Redes/nbproject/private/
+/Cliente_Redes/nbproject/private/
+/Servidor_Redes/build/
+/Cliente_Redes/build/
+/Servidor_Redes/dist/
+/Cliente_Redes/dist/
