@@ -34,7 +34,7 @@ public class Comunicador implements Runnable{
      */
     public boolean conectar(){
         try{
-            this.socket = new Socket("cosmos.lasdpc.icmc.usp.br", 40105);
+            this.socket = new Socket("localhost", 40105);
             this.input = new ObjectInputStream(socket.getInputStream());
             this.output = new ObjectOutputStream(socket.getOutputStream());
             return true;
